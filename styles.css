@@ -9,7 +9,7 @@ body {
   background: black;
   color: #fff;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
   position: relative;
 }
 
@@ -404,12 +404,12 @@ footer .footer {
 }
 
 @media screen and (max-width: 399px){
-  /* .overall {
-    overflow-x: hidden;
+  .overall {
+    overflow-x: hidden !important;
   }
   .overall::-webkit-scrollbar{
     display: none;
-  } */
+  }
   .sect-container{
     display: flex !important;
     flex-direction: column;
