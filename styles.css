@@ -412,8 +412,8 @@ footer .footer {
   } */
   .sect-container{
     display: flex;
-    flex-direction: column;
-    gap: 120px;
+    flex-direction: row;
+    gap: 10em;
   }
   .first {
     position: relative;
