@@ -411,8 +411,8 @@ footer .footer {
     display: none;
   } */
   .sect-container{
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: column;
     gap: 10em;
   }
   .first {
@@ -424,7 +424,7 @@ footer .footer {
     
   }
   main {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     position: absolute;
     width: 100%;
     top: 55%;
