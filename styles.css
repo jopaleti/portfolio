@@ -9,7 +9,7 @@ body {
   background: black;
   color: #fff;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   position: relative;
 }
 
@@ -404,12 +404,12 @@ footer .footer {
 }
 
 @media screen and (max-width: 399px){
-  .overall {
+  /* .overall {
     overflow-x: hidden;
   }
   .overall::-webkit-scrollbar{
     display: none;
-  }
+  } */
   .first {
     position: relative;
     height: 100vh;
@@ -446,8 +446,8 @@ footer .footer {
     margin: auto;
     /* z-index: -1; */
     inset: 0;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
+    border-left: 1px solid #fff !important;
+    border-right: 1px solid #fff !important;
     /* display: none !important; */
   }
   footer {
@@ -455,10 +455,6 @@ footer .footer {
     position: relative;
     width: 100%;
   }
-  .sect-container {
-    flex-direction: column !important;
-    gap: 10em !important;
-  } 
 }
 
 

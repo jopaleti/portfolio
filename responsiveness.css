@@ -1,4 +1,7 @@
 @media (max-width: 720px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .nav-item3 {
     display: none !important;
   }
