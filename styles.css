@@ -296,6 +296,10 @@ footer .footer {
     margin-bottom: 50px;
     font-size: 30px;
   }
+  .main{
+    width: 400px;
+    margin: auto;
+  }
   .main-content p {
     margin-bottom: 45px;
     font-size: 15px;
@@ -431,9 +435,13 @@ footer .footer {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .main{
+    width: 90% !important;
+    margin: auto;
+  }
 
   .main .main-content{
-    width: 90%;
+    width: 90% !important;
     margin: auto;
   }
 
