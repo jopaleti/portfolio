@@ -193,7 +193,7 @@ section:nth-child(even) > .sect-container .image-container {
 
 /* footer */
 footer {
-  height: 80vh;
+  height: 50vh;
   position: relative;
   width: 100%;
 }
@@ -263,7 +263,7 @@ footer .footer {
   }
   .first {
     position: relative;
-    height: 140vh;
+    height: 100vh;
     width: 100%;
     /* border-right: 1px solid #fff; */
   }
@@ -311,11 +311,11 @@ footer .footer {
   /* .image-container .sub-image1-cont .medium {
     width: 40%;
   } */
-.img_diff{
-  display: grid;
-  grid-template-columns: 50% 50% ;
-  padding: unset !important;
-}
+  .img_diff{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    padding: unset !important;
+  }
   .sect-container {
     text-align: center !important;
   }
@@ -410,6 +410,11 @@ footer .footer {
   .overall::-webkit-scrollbar{
     display: none;
   } */
+  .sect-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
   .first {
     position: relative;
     height: 100vh;
