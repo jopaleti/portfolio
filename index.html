@@ -7,19 +7,37 @@
     <link rel="stylesheet" href="responsiveness.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>Adedapo Tiamiyu/Portfolio</title>
 </head>
 <body>
    
     <div>
         <!-- Navbar -->
-        <div class="first">
+        <div class="first" data-aos="zoom-in">
             <nav>
-                <h3 class="nav-item1">Home</h3>
-                <h3 class="nav-item2">Nigeria <span class="time"></span></h3>
+                <div><h3 class="nav-item1">Home</h3></div>
+                <div><h3 class="nav-item2">Nigeria <span class="time"></span></h3></div>
+                <i class="material-icons menu" onclick="show()" style="cursor: pointer;">
+                    menu
+                </i>
+                
                 <div class="nav-item3">
-                    <a href="">Hire me</a>
-                    <h3 style="cursor:pointer"><a href="#">Download Resume</a></h3>
+                    <div class="close">
+                        <i class="material-icons close" onclick="away()"> 
+                            close
+                        </i>
+                    </div>
+                    <h3><a href="" style="display: flex; gap: 10px;"><span class="material-icons" style="color: blue;">
+                        account_circle
+                        </span>Hire me</a></h3>
+                    <h3 style="cursor:pointer"><a href="#" style="display: flex; gap: 10px;"><span class="material-icons" style="color: blue;">
+                        download
+                        </span>Download Resume</a></h3>
                 </div>
             </nav>
             <hr style="color:white">
@@ -43,28 +61,28 @@
                 </div>
             </div>
         </div>
-        <hr style="color:white;margin-bottom:40px">
+        <hr style="color:white;margin-bottom:40px; margin-top: -30px;">
         <!-- section1 -->
          <section>
             <h3>Some Featured Projects</h3>
             <div class="sect-container">
                 <!-- image-container -->
-                <div class="image-container">
+                <div class="image-container img_diff" data-aos="fade-right" data-aos-easing="ease-in-sine">
                     <div class="sub-image1-cont">
-                        <div>
+                        <div class="medium">
                             <img src="./images/Image1.png" alt="img.png">
                         </div>
                         
                     </div>
                     <div class="sub-image2-cont">
-                        <div>
+                        <div class="medium">
                             <img src="./images/Image2.png" alt="img.png">
                         </div>
                         
                     </div>
                 </div>
                 <!-- text-container -->
-                <div class="text-container">
+                <div class="text-container" data-aos="fade-left" >
                     <div class="sub-text-container">
                         <h1>myMeko Product <br> Design</h1>
                         <div class="link">
@@ -77,9 +95,9 @@
 
         <!-- section2 -->
         <section>
-            <div class="sect-container">
+            <div class="sect-container diff">
                 <!-- image-container -->
-                <div class="image-container img-cont">
+                <div class="image-container img_diff img-cont" data-aos="fade-down-right">
                     <div class="sub-image1-cont">
                         <div>
                             <img class="image" src="./images/Image4.png" alt="img.png">
@@ -94,7 +112,7 @@
                     </div>
                 </div>
                 <!-- text-container -->
-                <div class="text-container">
+                <div class="text-container" data-aos="fade-down-left">
                     <div class="sub-text-container">
                         <h1>Payrev Product <br> Design</h1>
                         <div class="link">
@@ -109,7 +127,7 @@
         <section>
             <div class="sect-container">
                 <!-- image-container -->
-                <div class="image-container3">
+                <div class="image-container3" data-aos="fade-right">
                     <div class="sub-image-cont3">
                         <div>
                             <img src="./images/Image3.png" alt="img.png">
@@ -118,7 +136,7 @@
                     </div>
                 </div>
                 <!-- text-container -->
-                <div class="text-container">
+                <div class="text-container" data-aos="fade-left">
                     <div class="sub-text-container">
                         <h1>Crytoe Product <br> Design</h1>
                         <div class="link">
@@ -131,9 +149,9 @@
 
         <!-- section4 -->
         <section>
-            <div class="sect-container">
+            <div class="sect-container diff">
                 <!-- image-container -->
-                <div class="image-container3 image-container4">
+                <div class="image-container3 image-container4" data-aos="fade-right">
                     <div class="sub-image-cont3">
                         <div>
                             <img src="./images/Image6.png" alt="img.png">
@@ -142,9 +160,9 @@
                     </div>
                 </div>
                 <!-- text-container -->
-                <div class="text-container">
+                <div class="text-container" data-aos="fade-left">
                     <div class="sub-text-container">
-                        <h1>myMeko Product <br> Design</h1>
+                        <h1>Market Place <br> Mobile App</h1>
                         <div class="link">
                             <a href="">View Case Study</a>
                         </div>
@@ -157,7 +175,7 @@
         <section>
             <div class="sect-container">
                 <!-- image-container -->
-                <div class="image-container3">
+                <div class="image-container3" data-aos="fade-right">
                     <div class="sub-image-cont3">
                         <div>
                             <img src="./images/Image7.png" alt="img.png">
@@ -166,7 +184,7 @@
                     </div>
                 </div>
                 <!-- text-container -->
-                <div class="text-container">
+                <div class="text-container" data-aos="fade-left">
                     <div class="sub-text-container">
                         <h1>Payment Gateway <br> UI/UX Design</h1>
                         <div class="link">
@@ -178,9 +196,9 @@
         </section>
 
         <!-- footer -->
-        <footer>
+        <footer data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="footer">
-                <div class="email"><a class="foot" href="">tiamiyuadedapo@gmail.com</a></div>
+                    <div class="email"><a class="foot" href="">tiamiyuadedapo@gmail.com</a></div>
                 
                     <div class="links">
                         <a href="">Twitter</a>
@@ -188,11 +206,20 @@
                         <a href="">Dribble</a>
                         <a href="">Behance</a>
                     </div>
-                </div>
+               
             </div>
         </footer>
 
     </div>
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 800,
+            easing: 'ease',
+        });
+        
+    </script>
 </body>
 </html>

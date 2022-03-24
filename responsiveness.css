@@ -20,3 +20,36 @@
     max-width: unset !important;
   }
 }
+
+/* @media screen and (max-width: 500px) */
+
+/* @media screen and (max-width: 500px) {
+  .main .main-content h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  .main-content p {
+    margin-bottom: 45px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .first {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    border-right: 1px solid #fff;
+  }
+  .first:after {
+    content: '';
+    position: absolute;
+    width: 95%;
+    margin: auto;
+    inset: 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+  .sect-container {
+    flex-direction: column;
+    gap: 10em;
+  } 
+} */
