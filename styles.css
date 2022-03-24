@@ -413,7 +413,7 @@ footer .footer {
   .sect-container{
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 120px;
   }
   .first {
     position: relative;
