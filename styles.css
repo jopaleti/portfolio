@@ -407,6 +407,9 @@ footer .footer {
   .overall {
     overflow-x: hidden;
   }
+  .overall::-webkit-scrollbar{
+    display: none;
+  }
   .first {
     position: relative;
     height: 100vh;
@@ -452,6 +455,10 @@ footer .footer {
     position: relative;
     width: 100%;
   }
+  .sect-container {
+    flex-direction: column !important;
+    gap: 10em !important;
+  } 
 }
 
 
