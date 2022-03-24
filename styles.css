@@ -10,6 +10,7 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+  position: relative;
 }
 
 nav div {
@@ -348,6 +349,7 @@ footer .footer {
   }
 
   .nav-item3{
+    overflow: hidden;
     /* display: none; */
     position: absolute;
     display: inline-block !important;
@@ -402,16 +404,19 @@ footer .footer {
 }
 
 @media screen and (max-width: 399px){
-  
+  .overall {
+    overflow-x: hidden;
+  }
   .first {
     position: relative;
     height: 100vh;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden !important; */
     text-align: center;
     
   }
   main {
+    /* overflow-x: hidden; */
     position: absolute;
     width: 100%;
     top: 55%;
@@ -436,7 +441,7 @@ footer .footer {
     position: absolute;
     width: 95%;
     margin: auto;
-    z-index: -1;
+    /* z-index: -1; */
     inset: 0;
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
